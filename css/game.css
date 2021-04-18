@@ -1,0 +1,46 @@
+body{
+  font-family: 'Thasadith', sans-serif
+}
+nav{
+  display: grid;
+  grid-template-columns:33% 34% 33%;
+  background-color:rgb(148, 117, 197);
+  margin: 5px;
+  padding: 10px 5px;
+  border-radius: 20px;
+}
+div{
+    font-size: 1.5em;
+    margin: 0px 10px;
+    text-align: center;
+}
+main{ 
+  display: grid;
+  grid-template-columns:33% 34% 33%;
+  grid-template-rows: auto;
+  height: 630px;
+  text-align:center;
+  border-style: groove;
+  color: #000;
+  margin: 5px;
+}
+h1{
+    border-style: groove;
+    font-size: 3em;
+    padding-top: 80px;
+    margin: 0px;
+}
+input1{
+  display: grid;
+  grid-template-columns:0% 100% 0%;
+}
+footer{
+  font-size: 20px;
+  line-height: 50px;
+  margin: 5px 5px;
+  padding:10px;
+  background-color: rgb(36, 182, 138);
+  text-align: center;
+  border-radius: 20px;
+  color:rgb(250, 249, 178);
+}
